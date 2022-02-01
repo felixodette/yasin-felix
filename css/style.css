@@ -1,3 +1,8 @@
 .project-tile {
     
 }
+
+.topnav {
+    background-color: darkgray;
+    overflow: hidden;
+}
