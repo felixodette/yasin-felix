@@ -2,13 +2,30 @@
     
 }
 
+header{
+    position: fixed;
+}
+
 .topnav {
     background-color: darkgray;
     overflow: hidden;
+    position: fixed;
 }
 
 @media only screen and (max-width: 800px) {
     body {
         background-color: red;
     }
+}
+html {
+    box-sizing: border-box;
+}
+*, *: before, *:after {
+    box-sizing: inherit;
+}
+html, body {
+    height: 100%
+}
+#welcome-section {
+    height: inherit;
 }
